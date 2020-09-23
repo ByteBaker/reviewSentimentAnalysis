@@ -6,7 +6,7 @@ It can also be used either as a review scraper, or just as a sentiment analysis 
 
 ### Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install reviewSentimentAnalysis.
 
 ```bash
 pip install git+https://github.com/ByteBaker/reviewSentimentAnalysis
