@@ -60,7 +60,8 @@ class Scraper:
 
 			if rcount_div:
 				count_span = rcount_div.find('span', attrs={'class':'_38sUEc'})
-				no_of_reviews = int(re.search('[0-9,]+ review', count_span.text.lower()).group().split()[0])
+				review_count_value = re.search('[0-9,]+ review', count_span.text.lower()).group().split()[0]
+				no_of_reviews = int(''.join(review_count_value.split(',')))
 			else:
 				no_of_reviews = 0
 
